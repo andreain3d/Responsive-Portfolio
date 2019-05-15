@@ -36,7 +36,6 @@ a:hover {
     height: 100px;
     float: left;
     background: #4aaaa5;
-    display: inline-block;
     margin: 0;
 }
 
@@ -57,7 +56,6 @@ h1 {
 
 .content {
     margin-bottom: 200px;
-    overflow: 
 }
 
 .clearfix:after {
@@ -90,7 +88,15 @@ h2 {
     margin: 0px 20px 0px;
 }
 
-.container {
+.container-index {
+    padding: 0px 20px 20px 20px;
+}
+
+.container-portfolio {
+    padding: 0px 20px 20px 20px;
+}
+
+.container-contact {
     padding: 0px 20px 20px 20px;
 }
 
@@ -196,11 +202,19 @@ h3 {
         width: 640px;
     }
 
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+
     .btn-container {
         height: 50px;
         background: #ffffff;
         border-bottom: solid 1px #ccc;
-        padding: 25px 0px 0px 180px;
+        padding: 0;
+        margin: 0 0 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .nav-btn {
@@ -221,5 +235,11 @@ h3 {
         width: 460px;
         height: 460px;
         margin-bottom: 20px;
+    }
+
+    .container-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
