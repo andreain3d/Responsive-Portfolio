@@ -237,6 +237,15 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .portfolio-img {
+    height: 188px;
+    width: 225px;
+  }
+
+  .portfolio-label {
+    width: 225px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -293,5 +302,14 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .portfolio-img {
+    height: 250px;
+    width: 300px;
+  }
+
+  .portfolio-label {
+    width: 300px;
   }
 }
