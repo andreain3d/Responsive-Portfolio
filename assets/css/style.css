@@ -111,14 +111,8 @@ h2 {
   margin: 0px 20px 0px;
 }
 
-.container-index {
-  padding: 0px 20px 20px 20px;
-}
-
-.container-portfolio {
-  padding: 0px 20px 20px 20px;
-}
-
+.container-index,
+.container-portfolio,
 .container-contact {
   padding: 0px 20px 20px 20px;
 }
